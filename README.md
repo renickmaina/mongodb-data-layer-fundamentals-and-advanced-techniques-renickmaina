@@ -1,59 +1,16 @@
-# MongoDB Fundamentals - Week 1
+FIles Uploaded For SUbmission:
 
-## Setup Instructions
+1.insert_books.js:
+Initial file with connection URL to my MongoDB Atlas account
 
-Before you begin this assignment, please make sure you have the following installed:
+2.Index.js:
+All the queries in the questions with CRUD operations, Agregation pipeline and Idexing
 
-1. **MongoDB Community Edition** - [Installation Guide](https://www.mongodb.com/docs/manual/administration/install-community/)
-2. **MongoDB Shell (mongosh)** - This is included with MongoDB Community Edition
-3. **Node.js** - [Download here](https://nodejs.org/)
+3.Screenshort to show the documents and collections in MongoDB Atlas
 
-### Node.js Package Setup
+Running:
+I had used the connection key dirrectly in the jason files but i then used the .env file for connection later on
+Run: 
+insert_books.js(node insert_books.js)
+queries.js(node queries.js)
 
-Once you have Node.js installed, run the following commands in your assignment directory:
-
-```bash
-# Initialize a package.json file
-npm init -y
-
-# Install the MongoDB Node.js driver
-npm install mongodb
-```
-
-## Assignment Overview
-
-This week focuses on MongoDB fundamentals including:
-- Creating and connecting to MongoDB databases
-- CRUD operations (Create, Read, Update, Delete)
-- MongoDB queries and filters
-- Aggregation pipelines
-- Indexing for performance
-
-## Submission
-
-Complete all the exercises in this assignment and push your code to GitHub using the provided GitHub Classroom link.
-
-## Getting Started
-
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install MongoDB locally or set up a MongoDB Atlas account
-4. Run the provided `insert_books.js` script to populate your database
-5. Complete the tasks in the assignment document
-
-## Files Included
-
-- `Week1-Assignment.md`: Detailed assignment instructions
-- `insert_books.js`: Script to populate your MongoDB database with sample book data
-
-## Requirements
-
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- MongoDB Shell (mongosh) or MongoDB Compass
-
-## Resources
-
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
